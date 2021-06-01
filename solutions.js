@@ -38,7 +38,10 @@ function addOne(number) {
 }
 
 function isEven(number) {
-    return Number(number) % 2 == 0;
+    if (typeof number != 'number' && typeof number != 'string') {
+        return false;
+    }
+    return number % 2 == 0;
 }
 
 function isIdentical(value0, value1) {
@@ -47,4 +50,8 @@ function isIdentical(value0, value1) {
 
 function isEqual(value0, value1) {
     return value0 == value1;
+}
+
+function or(input0, input1) {
+    return input0 || input1;
 }

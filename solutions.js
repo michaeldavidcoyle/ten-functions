@@ -59,3 +59,7 @@ function or(input0, input1) {
 function and(input0, input1) {
     return input0 && input1;
 }
+
+function concat(input0, input1) {
+    return input0.toString() + input1;
+}

@@ -32,3 +32,7 @@ function isFalse(data) {
 function not(input) {
     return !input;
 }
+
+function addOne(number) {
+    return Number(number) + 1;
+}

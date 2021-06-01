@@ -28,3 +28,7 @@ function isTrue(data) {
 function isFalse(data) {
     return data === false;
 }
+
+function not(input) {
+    return !input;
+}

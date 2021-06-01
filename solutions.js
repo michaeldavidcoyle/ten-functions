@@ -55,3 +55,7 @@ function isEqual(value0, value1) {
 function or(input0, input1) {
     return input0 || input1;
 }
+
+function and(input0, input1) {
+    return input0 && input1;
+}

@@ -36,3 +36,11 @@ function not(input) {
 function addOne(number) {
     return Number(number) + 1;
 }
+
+function isEven(number) {
+    return Number(number) % 2 == 0;
+}
+
+function isIdentical(value0, value1) {
+    return value0 === value1;
+}
